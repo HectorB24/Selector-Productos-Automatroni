@@ -1,4 +1,4 @@
-function ListCharge () {
+function List () {
     return (
         <div>
             Lista
@@ -6,4 +6,4 @@ function ListCharge () {
     )
 }
 
-export {ListCharge};
+export {List};

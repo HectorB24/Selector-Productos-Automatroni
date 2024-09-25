@@ -1,16 +1,16 @@
 import { useRoutes, BrowserRouter } from 'react-router-dom';
-import { Parameters } from '../Parammeters';
-import { Ranges } from '../Ranges';
-import { ListCharge } from '../ListCharge';
+import { Measures } from '../Measures';
+import { Draw } from '../Draw';
+import { List } from '../List';
 import { Eyelashes } from '../Components/Eyelashes';
 
 import './App.css'
 
 const AppRoutes = () => {
   const routes = useRoutes([
-    { path: '/parameters', element: <Parameters />},
-    { path: '/ranges', element: <Ranges />},
-    { path: '/listcharge', element: <ListCharge />},
+    { path: '/measures', element: <Measures />},
+    { path: '/draw', element: <Draw />},
+    { path: '/list', element: <List />},
   ])
 
   return routes
